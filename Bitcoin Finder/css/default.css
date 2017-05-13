@@ -1,0 +1,78 @@
+#browser-iframe-container,#browser-iframe-container2{height:auto;position:absolute;bottom:0;left:0;right:0}
+h5{font-weight:700}hr{margin:10px 0}
+.panel-sm 
+.panel-body,.panel-sm 
+.panel-heading{padding:5px}
+.panel-sm .panel-footer{padding:0}
+.space-none{margin:0!important}.expand-md{padding:10px!important}
+.space-sm{margin:5px 0;padding:0}
+.space-md{margin:10px 0;padding:0}
+.space-lg{margin:50px 0;padding:0}
+.expand-sm{margin:0;padding:5px}
+navbar-element{margin-top:8px;margin-left:8px}
+.inline{display:inline}
+.navbar-brand{padding-left:193px;background:url(../img/logo.png)8px center no-repeat}
+.navbar{margin-bottom:0}
+#browser-info-bar{color:#fff;height:45px;background:#5bc0de}
+#browser-info-bar2{color:#000;height:65px;background:#f2dede}
+#browser-iframe-container{top:85px}
+#browser-iframe-container2{top:150px}
+#browser-iframe{border:0;height:100%;vertical-align:top;width:100%}
+#browser-bottom{position:absolute;height:60px;width:100%;bottom:0;text-align:center;overflow:hidden}
+
+/* TOOL TIP de las faucets */
+a.Ntooltip{position:relative;text-align:left;text-decoration:none!important;color:#000!important;font-weight:500!important}
+a.Ntooltip:hover{z-index:999;background-color:#F2F2F2}
+a.Ntooltip span{display:none}
+a.Ntooltip:hover 
+span{display:block;position:absolute;top:2em;left:2em;width:200px;padding:5px;background-color:#0080C0;color:#FFF;border-radius:10px;
+-webkit-box-shadow:3px -3px 1px rgba(50,50,50,.56);-moz-box-shadow:3px -3px 1px rgba(50,50,50,.56);box-shadow:3px -3px 1px rgba(50,50,50,.56)}
+
+/*CSS de las faucets  */
+#formulario {margin-top:10px;margin-left:10px;width:230px; height:65px; background:green;-webkit-font-size:medium;}
+#btn-form { width:235px;height: 35px;margin-top:0px;}
+
+#cancelar {float:left; width:40px; margin-left:13px;margin-top:1px;}
+#enviar   {float:right; width:40px; margin-right:13px;}
+
+#cont{margin-left:5px;width:245px; height: 40px; border-radius:0.3em; background:#F2F2F2;-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.75);box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.75);}
+#numero{float:left; margin-left:5px; font-size:20px; align:center; margin-top:8px; width:20px; color:#BDBDBD; }
+#eliminar{float:left; width:20px; margin-left:2px; margin-top:0px;}
+#faucet{float:left; font-size:15px; margin-left:3px; text-align:left; width:127px; margin-top:11px; }
+#timer{float:right; margin-right:3px; font-size:15px; margin-top:10px; }
+
+/* CSS ../FAUCETS.PHP */
+.loader {position: fixed; left: 0px; top: 0px;width: 100%; height: 100%; z-index: 9999; background: url("../img/page-loader.gif") 50% 50% no-repeat rgb(249,249,249);opacity:0.9;}
+
+.not_funds {margin-left:5px; margin-right:5px; background:#424242; border-radius:0.4em; color:#fff;}
+#deplFau  {position:fixed; top:80; right:0; height: 0px;width: 100%;margin: auto;height: 0px;background: #FFF;transition: height .6s;}
+#deplFau2 {position:absolute; top:80; right:0; height: 0px;width: 100%;margin: auto;height: 0px;background: #FFF;transition: height .6s;}
+#deplFau3 {position:absolute; top:80; right:0; height: 0px;width: 100%;margin: auto;height: 0px;background: #FFF;transition: height .6s;}
+#up-down {float:left;width:400px;margin-left:0px;margin-top:0px;background:#0081c2;display:none;}
+#msj{float:left; margin-top:70%; color:grey; text-align:center; margin:10%;}
+span.red1 {
+color: #ffffff; 
+display: inline-block; 
+border-radius: 1.1em; 
+background: red; 
+font-weight: bold; 
+line-height: 2em; 
+font-size:12px; 
+text-align: center; 
+width: 2em; 
+position: absolute; 
+left: 60px; 
+top: 12px;
+-moz-border-radius: 0.9em; -webkit-border-radius: 0.9em; -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow:5px 5px 3px 0px rgba(50, 50, 50, 0.75); box-shadow:5px 5px 3px 0px rgba(50, 50, 50, 0.75);}
+
+span.red2 {
+background: red; border-radius: 1.1em; position: absolute; 
+left: 158px; 
+top: 12px; -moz-border-radius: 0.9em; -webkit-border-radius: 0.9em; color: #ffffff; display: inline-block; font-weight: bold;line-height: 2em; 
+font-size:12px;text-align: center;width: 2em; -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.75);-moz-box-shadow:5px 5px 3px 0px rgba(50, 50, 50, 0.75); box-shadow:5px 5px 3px 0px rgba(50, 50, 50, 0.75);}
+span.red3 {
+background: red; border-radius: 1.1em; position: absolute; 
+left: 230px; 
+top: 12px; color: #ffffff; display: inline-block; font-weight: bold; line-height: 2em; font-size:12px; text-align: center; width: 2em; 
+-moz-border-radius: 0.9em; -webkit-border-radius: 0.9em; -webkit-box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.75); -moz-box-shadow:5px 5px 3px 0px rgba(50, 50, 50, 0.75);box-shadow:5px 5px 3px 0px rgba(50, 50, 50, 0.75);}
+

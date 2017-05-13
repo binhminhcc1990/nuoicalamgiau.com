@@ -1,0 +1,103 @@
+
+
+#tab-box {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0;
+    /* margin: 0 auto; */
+    position: relative; 
+    /* top: 50px; */
+    width: 900px;height: 760px;
+    /* height: 50px; */   
+}
+ 
+.tab {
+    display: inline-block;
+    margin-left: 10px;
+    color: #24628b;
+
+}
+ 
+.tab:first-of-type {
+    margin-left: 0;
+
+}
+
+.tab span:first-of-type a {
+    /* cursor: pointer; */
+    display: inline-block; 
+    padding: 15px 20px;
+    color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+.tab:target span:first-of-type a {
+    background: #FE9A2E;
+    /* padding: 16px 20px 15px 20px; */
+    color: #1a2c45;
+}
+
+.tab:target span {
+    z-index: 1; 
+}
+
+.tab p {
+    padding: 0; 
+    /* margin: 0; */
+    text-align: justify;
+    height: 750px;
+    height: 1000px;
+    border-top-width: 10px;
+    border-right-width: 1em;
+    border-bottom-width: thick;
+    border-left-width: thin;
+}
+  
+.tab span:nth-of-type(2) {
+    display: block;
+    font-size: 14px;
+    padding: 20px;
+    color: #888;
+    line-height: 18px;
+    width: 1000px;
+    /* height: 100px; */
+    background: #fff;
+    position: absolute; 
+    left: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+ 
+.tab span:first-of-type a:hover {
+    background: #FE9A2E;
+    color: black;
+}
+ 
+.tab:target span:first-of-type a:hover {
+    background: #fff;
+    color: black;
+}
+
+textarea {resize:vertical; max-width:519px; max-height:300px; border: 1px solid #FF8000;}
+
+
+#contenedor {margin-left:25%; width: 1005;}
+#cont_sup {float:left;width: 1000px; height:380px;}
+#cont_medio {clear:both;width:1000;}
+#cont_abajo {clear:both;margin-top:330px;width:1000;height:300px;}
+
+#titulo {width:1000;background:#FE9A2E;padding:10px;}
+#sub_titulo {width:1000;padding:10px;}
+
+#izquierda {float:left;margin-left:30px; width: 300px; height:520px;}
+#centro {float:left;width: 300px; height:520px;}
+#derecha {float:right; width: 300px; height:520px;}
+#save {position:absolute; margin-top:280px; right:390px;}
